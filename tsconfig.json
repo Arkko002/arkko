@@ -5,6 +5,7 @@
     "strict": true,
     "jsx": "preserve",
     "importHelpers": true,
+	"resolveJsonModule": true,
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "skipLibCheck": true,
@@ -30,6 +31,7 @@
     ]
   },
   "include": [
+	"src/**/*.d.ts",
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
