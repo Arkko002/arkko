@@ -1,18 +1,24 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
-  </div>
+	<div class="home">
+		<TheNavbar />
+		<img alt="Vue logo" src="../assets/logo.png" />
+		<Projects />
+		<ContactInfo />
+	</div>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
+import TheNavbar from "@/components/TheNavbar.vue";
+import ContactInfo from "@/components/ContactInfo.vue";
+import Projects from "@/components/Projects.vue";
+import Vue from "vue";
 
-@Component({
-  components: {
-    HelloWorld,
-  },
-})
-export default class Home extends Vue {}
+export default Vue.extend({
+	name: "Home",
+	components: {
+		TheNavbar,
+		ContactInfo,
+		Projects,
+	},
+});
 </script>
