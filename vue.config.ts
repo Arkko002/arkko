@@ -1,3 +1,3 @@
 module.exports = {
-	publicPath: "/arkko/",
+	publicPath: process.env.NODE_ENV === "production" ? "/arkko/" : "/",
 };
