@@ -1,8 +1,7 @@
 <template>
-	<div id="projects">
-		<li v-for="project in projects" :key="project.name">
+	<div id="projects" class="justify-around px-4 grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+		<li class="px-6 py-10 list-none" v-for="project in projects" :key="project.name" >
 			<ProjectCard :project="project" />
-			<router-link :to="{ path: 'project', params: { name: project.name } }" />
 		</li>
 	</div>
 </template>

@@ -1,14 +1,13 @@
 <template>
-	<div class="home">
-		<TheNavbar />
-		<img alt="Vue logo" src="../assets/logo.png" />
+	<div class="relative">
+		<Start />
 		<Projects />
 		<ContactInfo />
 	</div>
 </template>
 
 <script lang="ts">
-import TheNavbar from "@/components/TheNavbar.vue";
+import Start from "@/components/Start.vue";
 import ContactInfo from "@/components/ContactInfo.vue";
 import Projects from "@/components/Projects.vue";
 import Vue from "vue";
@@ -16,7 +15,7 @@ import Vue from "vue";
 export default Vue.extend({
 	name: "Home",
 	components: {
-		TheNavbar,
+		Start,
 		ContactInfo,
 		Projects,
 	},

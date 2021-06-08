@@ -6,6 +6,7 @@ Vue.use(VueRouter);
 
 const router = new VueRouter({
 	mode: "history",
+
 	routes: [
 		{
 			path: "/",
@@ -24,6 +25,18 @@ const router = new VueRouter({
 			component: () => import("../views/Project.vue"),
 		},
 	],
+
+	scrollBehavior(to, from, savedPosition) {
+		if (savedPosition) {
+			return savedPosition;
+		}
+
+		if (to.hash) {
+			return { selector: to.hash };
+		}
+
+		return { x: 0, y: 0 };
+	},
 });
 
 export default router;

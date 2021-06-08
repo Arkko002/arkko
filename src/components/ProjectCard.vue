@@ -1,13 +1,19 @@
 <template>
-	<div>
-		<span>{{ project.name }}</span>
-		<span>{{ project.link }}</span>
-		<span>{{ project.description }}</span>
+	<div class="bg-gray-300 grid grid-cols-2">
 		<span>
-			<li v-for="img in imgs" :key="img">
-				<img :src="img.path" />
-			</li>
+			<img src="../../public/start-small.jpg" />
+			<!--<li v-for="img in imgs" :key="img">-->
+			<!--<img :src="img.path" />-->
+			<!--</li>-->
 		</span>
+		<div class="flex flex-col">
+			<span>{{ project.name }}</span>
+			<span>{{ project.link }}</span>
+			<span>{{ project.description }}</span>
+			<router-link :to="{ path: '/project/' + project.name, params: { name: project.name } }"
+				>See More</router-link
+			>
+		</div>
 	</div>
 </template>
 
