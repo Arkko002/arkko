@@ -1,11 +1,15 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import * as Config from "../../vue.config.js";
 
 Vue.use(VueRouter);
 
 const router = new VueRouter({
 	mode: "history",
+	base: Config.publicPath,
 
 	routes: [
 		{

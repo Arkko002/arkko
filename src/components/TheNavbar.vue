@@ -19,7 +19,7 @@
 		</div>
 
 		<nav
-			class="flex items-center flex-1 sm:items-stretch sm:justify-end space-x-3"
+			class="flex h-full flex-nowrap sm:items-stretch sm:justify-end space-x-3"
 		>
 			<NavButton path="/" hash="#start" pathName="Start" />
 			<NavButton path="/" hash="#projects" pathName="Projects" />

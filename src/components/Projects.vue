@@ -7,21 +7,17 @@
 				px-4
 				mb-8
 				grid
-				gap-4
+				gap-8
 				grid-cols-1
 				md:grid-cols-2
 				xl:grid-cols-3
 			"
 		>
-			<ul>
-				<li
-					class="px-6 py-10 list-none"
-					v-for="project in projects"
-					:key="project.name"
-				>
-					<ProjectCard :project="project" />
-				</li>
-			</ul>
+			<ProjectCard
+				v-for="project in projects"
+				:key="project.name"
+				:project="project"
+			></ProjectCard>
 		</div>
 	</div>
 </template>

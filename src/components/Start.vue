@@ -2,7 +2,7 @@
 	<div>
 		<Anchor anchorId="start" />
 		<div id="start" class="flex flex-1 mb-8 h-screen bg-gray-100">
-			<div class="flex flex-col items-center justify-center flex-1 w-1/2">
+			<div class="flex flex-col justify-center items-center flex-1 w-1/2">
 				<span class="text-3xl">About Me</span>
 				<NavButton
 					path="/"
