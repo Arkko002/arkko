@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts">
-import projectsJson from "@/assets/projects.json";
+import projectsJson from "../../public/projects.json";
 import Vue from "vue";
 import { Project } from "@/models/project";
 

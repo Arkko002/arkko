@@ -2,21 +2,32 @@
 	<div>
 		<Anchor anchorId="projects" />
 		<div
-			class="justify-around px-4 mb-8 grid gap-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-3"
+			class="
+				justify-around
+				px-4
+				mb-8
+				grid
+				gap-4
+				grid-cols-1
+				md:grid-cols-2
+				xl:grid-cols-3
+			"
 		>
-			<li
-				class="px-6 py-10 list-none"
-				v-for="project in projects"
-				:key="project.name"
-			>
-				<ProjectCard :project="project" />
-			</li>
+			<ul>
+				<li
+					class="px-6 py-10 list-none"
+					v-for="project in projects"
+					:key="project.name"
+				>
+					<ProjectCard :project="project" />
+				</li>
+			</ul>
 		</div>
 	</div>
 </template>
 
 <script lang="ts">
-import projectsJson from "@/assets/projects.json";
+import projectsJson from "../../public/projects.json";
 import { Project } from "@/models/project";
 import ProjectCard from "@/components/ProjectCard.vue";
 import Anchor from "@/components/Anchor.vue";
