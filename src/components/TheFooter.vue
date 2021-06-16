@@ -4,13 +4,14 @@
 		Photo by <a href="https://www.pexels.com/@antonio-batinic-2573434?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Antonio Batinić</a> from <a href="https://www.pexels.com/photo/black-screen-with-code-4164418/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Pexels</a>
 		</span>
 
+		<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 	</div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
-	name: "TheFooter",	
+	name: "TheFooter",
 })
 </script>
 

@@ -2,37 +2,52 @@
 	{
 		"name": "WebWalker",
 		"link": "https://github.com/Arkko002/PyWalker",
-		"description": "TODO",
-		"bullets": [
-			"First",
-			"Second",
-			"Thrid"
+		"description": "Sed ac felis purus. Phasellus eget libero aliquet erat imperdiet tempor. Duis et fringilla magna. Sed eget leo at purus feugiat condimentum. Quisque sapien nibh, commodo eget facilisis eu, sodales vel eros.",
+		"icons": [
+			"django.png",
+			"python.png",
+			"react.png"
 		]
 	},
 	 {
 		"name": "RedPoint",
 		"link": "https://github.com/Arkko002/RedPoint",
-		"description": "TODO",
-		"bullets": [
-			"First",
-			"Second",
-			"Thrid"
+		"description": "Sed ac felis purus. Phasellus eget libero aliquet erat imperdiet tempor. Duis et fringilla magna. Sed eget leo at purus feugiat condimentum. Quisque sapien nibh, commodo eget facilisis eu, sodales vel eros.",
+		"icons": [
+			"django.png",
+			"python.png",
+			"react.png"
 		]
 	},
 	{
 		"name": "RichClousre",
 		"link": "https://github.com/Arkko002/RichClosure",
-		"description": "TODO",
-		"bullets": [
-			"First",
-			"Second",
-			"Thrid"
+		"description": "Sed ac felis purus. Phasellus eget libero aliquet erat imperdiet tempor. Duis et fringilla magna. Sed eget leo at purus feugiat condimentum. Quisque sapien nibh, commodo eget facilisis eu, sodales vel eros.",
+		"icons": [
+			"django.png",
+			"python.png",
+			"react.png"
 		]
 	},
 	{
 		"name": "RichMap",
 		"link": "https://github.com/Arkko002/richMap",
-		"description": "TODO",
+		"description": "Sed ac felis purus. Phasellus eget libero aliquet erat imperdiet tempor. Duis et fringilla magna. Sed eget leo at purus feugiat condimentum. Quisque sapien nibh, commodo eget facilisis eu, sodales vel eros.",
+		"icons": [
+			"django.png",
+			"python.png",
+			"react.png"
+		]
+	},
+	{
+		"name": "RichClousre",
+		"link": "https://github.com/Arkko002/RichClosure",
+		"description": "Sed ac felis purus. Phasellus eget libero aliquet erat imperdiet tempor. Duis et fringilla magna. Sed eget leo at purus feugiat condimentum. Quisque sapien nibh, commodo eget facilisis eu, sodales vel eros.",
+		"icons": [
+			"django.png",
+			"python.png",
+			"react.png"
+		],
 		"bullets": [
 			"First",
 			"Second",
@@ -42,7 +57,12 @@
 	{
 		"name": "RichClousre",
 		"link": "https://github.com/Arkko002/RichClosure",
-		"description": "TODO",
+		"description": "Sed ac felis purus. Phasellus eget libero aliquet erat imperdiet tempor. Duis et fringilla magna. Sed eget leo at purus feugiat condimentum. Quisque sapien nibh, commodo eget facilisis eu, sodales vel eros.",
+		"icons": [
+			"django.png",
+			"python.png",
+			"react.png"
+		],
 		"bullets": [
 			"First",
 			"Second",
@@ -52,7 +72,12 @@
 	{
 		"name": "RichClousre",
 		"link": "https://github.com/Arkko002/RichClosure",
-		"description": "TODO",
+		"description": "Sed ac felis purus. Phasellus eget libero aliquet erat imperdiet tempor. Duis et fringilla magna. Sed eget leo at purus feugiat condimentum. Quisque sapien nibh, commodo eget facilisis eu, sodales vel eros.",
+		"icons": [
+			"django.png",
+			"python.png",
+			"react.png"
+		],
 		"bullets": [
 			"First",
 			"Second",
@@ -62,17 +87,12 @@
 	{
 		"name": "RichClousre",
 		"link": "https://github.com/Arkko002/RichClosure",
-		"description": "TODO",
-		"bullets": [
-			"First",
-			"Second",
-			"Thrid"
-		]
-	},
-	{
-		"name": "RichClousre",
-		"link": "https://github.com/Arkko002/RichClosure",
-		"description": "TODO",
+		"description": "Sed ac felis purus. Phasellus eget libero aliquet erat imperdiet tempor. Duis et fringilla magna. Sed eget leo at purus feugiat condimentum. Quisque sapien nibh, commodo eget facilisis eu, sodales vel eros.",
+		"icons": [
+			"django.png",
+			"python.png",
+			"react.png"
+		],
 		"bullets": [
 			"First",
 			"Second",

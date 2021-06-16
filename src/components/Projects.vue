@@ -1,8 +1,17 @@
 <template>
-	<div id="projects" class="justify-around px-4 grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-		<li class="px-6 py-10 list-none" v-for="project in projects" :key="project.name" >
-			<ProjectCard :project="project" />
-		</li>
+	<div>
+		<Anchor anchorId="projects" />
+		<div
+			class="justify-around px-4 mb-8 grid gap-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-3"
+		>
+			<li
+				class="px-6 py-10 list-none"
+				v-for="project in projects"
+				:key="project.name"
+			>
+				<ProjectCard :project="project" />
+			</li>
+		</div>
 	</div>
 </template>
 
@@ -10,6 +19,7 @@
 import projectsJson from "@/assets/projects.json";
 import { Project } from "@/models/project";
 import ProjectCard from "@/components/ProjectCard.vue";
+import Anchor from "@/components/Anchor.vue";
 import Vue from "vue";
 
 export default Vue.extend({
@@ -17,6 +27,7 @@ export default Vue.extend({
 
 	components: {
 		ProjectCard,
+		Anchor,
 	},
 
 	data() {
@@ -27,7 +38,12 @@ export default Vue.extend({
 
 	beforeMount: function () {
 		for (let json of projectsJson) {
-			let project = new Project(json.name, json.link, json.description);
+			let project = new Project(
+				json.name,
+				json.link,
+				json.description,
+				json.icons
+			);
 
 			this.projects.push(project);
 		}

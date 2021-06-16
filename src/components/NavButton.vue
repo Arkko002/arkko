@@ -1,6 +1,6 @@
 <template>
 	<router-link
-			:to="{path: path, hash: hash}"
+		:to="{ path: path, hash: hash }"
 		class="px-3 py-2 hover:underline"
 		>{{ pathName }}</router-link
 	>

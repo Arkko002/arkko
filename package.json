@@ -8,12 +8,13 @@
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
-	"deploy": "sh deploy.sh"
+    "deploy": "sh deploy.sh"
   },
   "prettier": {
     "useTabs": true
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
@@ -21,6 +22,7 @@
     "vue-router": "^3.2.0"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.3",
     "@types/chai": "^4.2.11",
     "@types/mocha": "^5.2.4",
     "@types/vue": "^2.0.0",

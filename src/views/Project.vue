@@ -23,7 +23,12 @@ export default Vue.extend({
 	created: function () {
 		for (let json of projectsJson) {
 			if (json.name === this.$route.params.name) {
-				this.project = new Project(json.name, json.link, json.description);
+				this.project = new Project(
+					json.name,
+					json.link,
+					json.description,
+					json.icons
+				);
 			}
 		}
 	},

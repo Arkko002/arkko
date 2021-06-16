@@ -16,6 +16,6 @@ export default Vue.extend({
 	components: {
 		TheNavbar,
 		TheFooter,
-	}
+	},
 });
 </script>
