@@ -4,19 +4,27 @@
 		data-aos-once="true"
 		class="w-full h-full bg-gray-300 shadow-2xl flex flex-col"
 	>
-		<img class="object-scale-down" src="../../public/start-small.jpg" />
+		<img
+			class="object-scale-down"
+			src="@/assets/img/start-small.jpg"
+			alt="Project"
+		/>
 
 		<div class="flex flex-col p-2">
 			<div class="flex flex-row items-center mb-2 flex-0">
 				<span class="mr-2">{{ project.name }}</span>
 				<a class="self-start" :href="project.link">
-					<img src="../../public/GitHub-Mark-32px.png" />
+					<img src="@/assets/img/GitHub-Mark-32px.png" alt="Github" />
 				</a>
 			</div>
 
 			<ul class="flex">
 				<li class="p-1" v-for="icon in project.icons" :key="icon">
-					<img class="h-8 w-8 object-scale-down" :src="require('../../public/' + icon)"/>
+					<img
+						class="h-8 w-8 object-scale-down"
+						:src="require('@/assets/img/' + icon)"
+						:alt="icon"
+					/>
 				</li>
 			</ul>
 

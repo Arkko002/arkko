@@ -10,13 +10,17 @@
 				<a href="https://github.com/Arkko002">
 					<img
 						class="h-44 transition transform hover:scale-110"
-						src="../../public/GitHub-Mark-120px-plus.png"
+						src="@/assets/img/GitHub-Mark-120px-plus.png"
 						alt="Github"
 					/>
 				</a>
 
 				<a href="mailto: arkko002@gmail.com">
-					<img class="h-44 transition transform hover:scale-110" src="../../public/email.png" alt="Send Email" />
+					<img
+						class="h-44 transition transform hover:scale-110"
+						src="@/assets/img/email.png"
+						alt="Send Email"
+					/>
 				</a>
 			</div>
 		</div>
