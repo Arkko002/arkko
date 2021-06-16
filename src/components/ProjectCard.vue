@@ -6,7 +6,7 @@
 	>
 		<img
 			class="object-scale-down"
-			src="./../assets/img/start-small.jpg"
+			src="../../public/img/start-small.jpg"
 			alt="Project"
 		/>
 
@@ -14,7 +14,7 @@
 			<div class="flex flex-row items-center mb-2 flex-0">
 				<span class="mr-2">{{ project.name }}</span>
 				<a class="self-start" :href="project.link">
-					<img src="./../assets/img/GitHub-Mark-32px.png" alt="Github" />
+					<img src="../../public/img/GitHub-Mark-32px.png" alt="Github" />
 				</a>
 			</div>
 
@@ -22,7 +22,7 @@
 				<li class="p-1" v-for="icon in project.icons" :key="icon">
 					<img
 						class="h-8 w-8 object-scale-down"
-						:src="require('./../assets/img/' + icon)"
+						:src="require('./../public/img/' + icon)"
 						:alt="icon"
 					/>
 				</li>
