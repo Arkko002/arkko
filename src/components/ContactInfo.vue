@@ -16,11 +16,11 @@
 				</a>
 
 				<a href="mailto: arkko002@gmail.com">
-					<img
-						class="h-44 transition transform hover:scale-110"
-						src="../../public/img/email.png"
-						alt="Send Email"
-					/>
+<!--					<img-->
+<!--						class="h-44 transition transform hover:scale-110"-->
+<!--						src="../../public/img/email.png"-->
+<!--						alt="Send Email"-->
+<!--					/>-->
 				</a>
 			</div>
 		</div>
