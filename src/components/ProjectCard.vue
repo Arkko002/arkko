@@ -22,7 +22,7 @@
 				<li class="p-1" v-for="icon in project.icons" :key="icon">
 					<img
 						class="h-8 w-8 object-scale-down"
-						:src="require('./../public/img/' + icon)"
+						:src="require('../../public/img/' + icon)"
 						:alt="icon"
 					/>
 				</li>
