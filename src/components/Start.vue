@@ -16,7 +16,7 @@
 			<!--</div>-->
 			<img
 				class="object-fill w-1/2"
-				src="@/assets/img/start-large.jpg"
+				src="./../assets/img/start-large.jpg"
 				alt="Welcome"
 			/>
 		</div>
