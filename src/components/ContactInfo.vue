@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="pt-12">
 		<Anchor anchorId="contact" />
 		<div class="flex justify-center  flex-col h-screen pt-10 bg-gray-100 border-t-4">
 			<span class="self-center text-4xl">Contact Me</span>

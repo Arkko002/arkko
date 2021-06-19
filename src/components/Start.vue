@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<Anchor anchorId="start" />
-		<div id="start" class="flex flex-1 mb-8 h-screen bg-gray-100">
+		<div id="start" class="flex flex-1 h-screen bg-gray-100">
 			<div class="flex flex-col justify-center items-center flex-1 flex-nowrap w-1/2">
 				<span class="text-lg sm:text-2xl lg:text-3xl"
 					>My name is Arkadiusz Kołodziejek</span
