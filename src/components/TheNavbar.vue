@@ -15,7 +15,6 @@
 	>
 		<div class="flex flex-col flex-nowrap">
 			<span>Arkadiusz Kołodziejek</span>
-			<span>Full-stack software developer</span>
 		</div>
 
 		<nav

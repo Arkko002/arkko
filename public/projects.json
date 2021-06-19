@@ -2,101 +2,109 @@
 	{
 		"name": "WebWalker",
 		"link": "https://github.com/Arkko002/PyWalker",
-		"description": "Sed ac felis purus. Phasellus eget libero aliquet erat imperdiet tempor. Duis et fringilla magna. Sed eget leo at purus feugiat condimentum. Quisque sapien nibh, commodo eget facilisis eu, sodales vel eros.",
+		"description": "Web scraper written in Python with use of Scrapy. Allows user to pull and analyze data from any website through a web front written in React.",
 		"icons": [
 			"django.png",
 			"python.png",
 			"react.png"
+		],
+		"images": [
+			"https://i.imgur.com/4nM84OD.jpg"
 		]
 	},
 	 {
 		"name": "RedPoint",
 		"link": "https://github.com/Arkko002/RedPoint",
-		"description": "Sed ac felis purus. Phasellus eget libero aliquet erat imperdiet tempor. Duis et fringilla magna. Sed eget leo at purus feugiat condimentum. Quisque sapien nibh, commodo eget facilisis eu, sodales vel eros.",
+		"description": "Chat with user accounts, real-life messaging, channels and servers. Written with the use of microservice architectural pattern that allows for great separation between the components user interacts with.",
 		"icons": [
 			"django.png",
 			"python.png",
 			"react.png"
-		]
+		],
+		 "images": [
+			 "https://i.imgur.com/akxssx2.jpg"
+		 ]
 	},
 	{
 		"name": "RichClousre",
 		"link": "https://github.com/Arkko002/RichClosure",
-		"description": "Sed ac felis purus. Phasellus eget libero aliquet erat imperdiet tempor. Duis et fringilla magna. Sed eget leo at purus feugiat condimentum. Quisque sapien nibh, commodo eget facilisis eu, sodales vel eros.",
+		"description": "Cross platform packet protocol analyzer created with use of Pcap API and offers two GUI fronts (AvaloniaUI and WPF). Offers range of functions that allow to filter incoming packets.",
 		"icons": [
 			"django.png",
 			"python.png",
 			"react.png"
+		],
+		"images": [
+			"https://camo.githubusercontent.com/53de7bdc0eb047cbe13adb498ef5734087d194fb3d9bd481626e91864a1c0c7e/68747470733a2f2f692e696d6775722e636f6d2f65614c333447712e706e67",
+			"https://camo.githubusercontent.com/41308e9e96b9272b316c350d889e7e0d0f4f5a03d092f9bf8fc4dc18062244bb/68747470733a2f2f692e696d6775722e636f6d2f387779306734702e706e67",
+			"https://camo.githubusercontent.com/0b1f33e0d17d05dacd7e7fa6665372621d477ed84227e53eca3abf47d445307e/68747470733a2f2f692e696d6775722e636f6d2f3459666f6656442e706e67",
+			"https://camo.githubusercontent.com/4a90ec1fb0e168ebcbb1bc1cf475b27737291ef11c7feb1189be06381d867f4d/68747470733a2f2f692e696d6775722e636f6d2f6c46766f6f7a692e706e67"
 		]
 	},
 	{
 		"name": "RichMap",
 		"link": "https://github.com/Arkko002/richMap",
-		"description": "Sed ac felis purus. Phasellus eget libero aliquet erat imperdiet tempor. Duis et fringilla magna. Sed eget leo at purus feugiat condimentum. Quisque sapien nibh, commodo eget facilisis eu, sodales vel eros.",
-		"icons": [
-			"django.png",
-			"python.png",
-			"react.png"
-		]
-	},
-	{
-		"name": "RichClousre",
-		"link": "https://github.com/Arkko002/RichClosure",
-		"description": "Sed ac felis purus. Phasellus eget libero aliquet erat imperdiet tempor. Duis et fringilla magna. Sed eget leo at purus feugiat condimentum. Quisque sapien nibh, commodo eget facilisis eu, sodales vel eros.",
+		"description": "A port scanner, live host finder and service banner grabber. Allows to interact with program's functionality through GUI or CLI.",
 		"icons": [
 			"django.png",
 			"python.png",
 			"react.png"
 		],
-		"bullets": [
-			"First",
-			"Second",
-			"Thrid"
+		"images": [
+			"https://camo.githubusercontent.com/01cadde3ac8f4010f756d7c8a563baad9e7e34821a8c265588cab505f24a822c/68747470733a2f2f692e696d6775722e636f6d2f5578447239464e2e706e67",
+			"https://camo.githubusercontent.com/2948f0e00a052d742478b5c572af45cde03bc431be5b5e26f2dee25603d51470/68747470733a2f2f692e696d6775722e636f6d2f683645663866312e706e67"
 		]
 	},
 	{
-		"name": "RichClousre",
-		"link": "https://github.com/Arkko002/RichClosure",
-		"description": "Sed ac felis purus. Phasellus eget libero aliquet erat imperdiet tempor. Duis et fringilla magna. Sed eget leo at purus feugiat condimentum. Quisque sapien nibh, commodo eget facilisis eu, sodales vel eros.",
+		"name": "nShop",
+		"link": "https://github.com/Arkko002/nShop",
+		"description": "A tiny implementation of eCommerence site with use of NodeJS and React. Allows to user's to create accounts and place orders for items managed by owner of the service.",
 		"icons": [
 			"django.png",
 			"python.png",
 			"react.png"
 		],
-		"bullets": [
-			"First",
-			"Second",
-			"Thrid"
+		"images": [
+			"https://i.imgur.com/WK9jEiB.jpg"
 		]
 	},
 	{
-		"name": "RichClousre",
-		"link": "https://github.com/Arkko002/RichClosure",
-		"description": "Sed ac felis purus. Phasellus eget libero aliquet erat imperdiet tempor. Duis et fringilla magna. Sed eget leo at purus feugiat condimentum. Quisque sapien nibh, commodo eget facilisis eu, sodales vel eros.",
+		"name": "NtNotifier",
+		"link": "https://github.com/Arkko002/NotificationNtBot",
+		"description": "Discord bot that I have written for the community of Neotokyo's game server. Monitors activity on public Neotokyo servers and sends out notifications with live updates about status of games.",
 		"icons": [
 			"django.png",
 			"python.png",
 			"react.png"
 		],
-		"bullets": [
-			"First",
-			"Second",
-			"Thrid"
+		"images": [
+			"https://i.imgur.com/zw6s7hL.jpg"
 		]
 	},
 	{
-		"name": "RichClousre",
-		"link": "https://github.com/Arkko002/RichClosure",
-		"description": "Sed ac felis purus. Phasellus eget libero aliquet erat imperdiet tempor. Duis et fringilla magna. Sed eget leo at purus feugiat condimentum. Quisque sapien nibh, commodo eget facilisis eu, sodales vel eros.",
+		"name": "File Upload Service for dead.tokyo",
+		"link": "https://github.com/Arkko002/dead.tokyo",
+		"description": "File upload NodeJS service with simple authentication and rate limiting created for the dead.tokyo website.",
 		"icons": [
 			"django.png",
 			"python.png",
 			"react.png"
 		],
-		"bullets": [
-			"First",
-			"Second",
-			"Thrid"
+		"images": [
+			"https://i.imgur.com/IEInvl1.jpg"
+		]
+	},
+	{
+		"name": "This website",
+		"link": "https://github.com/Arkko002/arkko",
+		"description": "This portfolio was created with the use of Vue and TailwindCSS. Full source code can be found in the link below.",
+		"icons": [
+			"django.png",
+			"python.png",
+			"react.png"
+		],
+		"images": [
+			"https://i.imgur.com/lC23XRk.jpg"
 		]
 	}
 ]

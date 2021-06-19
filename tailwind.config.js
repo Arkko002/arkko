@@ -14,6 +14,7 @@ module.exports = {
 			},
 			height: {
 				cardHeight: "70vh",
+				cardImgH: ""
 			},
 		},
 	},

@@ -18,6 +18,8 @@
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
+    "vue-gallery-slideshow": "^1.5.2",
+    "vue-markdown": "^2.2.4",
     "vue-property-decorator": "^9.1.2",
     "vue-router": "^3.2.0"
   },

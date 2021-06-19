@@ -23,11 +23,6 @@ const router = new VueRouter({
 			component: () =>
 				import(/* webpackChunkName: "about" */ "../views/About.vue"),
 		},
-		{
-			path: "/project/:name",
-			name: "Project",
-			component: () => import("../views/Project.vue"),
-		},
 	],
 
 	scrollBehavior(to, from, savedPosition) {

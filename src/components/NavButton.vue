@@ -5,6 +5,8 @@
 			px-3
 			mt-5
 			m-w-54
+			transform
+			transition
 			border-b-2 border-white border-opacity-0
 			hover:border-opacity-100
 		"

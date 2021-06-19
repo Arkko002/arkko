@@ -3,12 +3,13 @@
 		<Anchor anchorId="projects" />
 		<div
 			class="
-				justify-around
 				px-4
 				mb-8
 				grid
-				gap-8
+				gap-16
 				grid-cols-1
+				justify-center
+				align-cent
 				md:grid-cols-2
 				xl:grid-cols-3
 			"
@@ -49,7 +50,8 @@ export default Vue.extend({
 				json.name,
 				json.link,
 				json.description,
-				json.icons
+				json.icons,
+				json.images
 			);
 
 			this.projects.push(project);
