@@ -8,6 +8,9 @@
 				grid
 				gap-16
 				grid-cols-1
+				grid-rows-1
+				auto-cols-max
+				auto-rows-max
 				justify-center
 				align-cent
 				md:grid-cols-2
@@ -51,7 +54,8 @@ export default Vue.extend({
 				json.link,
 				json.description,
 				json.icons,
-				json.images
+				json.images,
+				json.bullets
 			);
 
 			this.projects.push(project);
