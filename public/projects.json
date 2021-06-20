@@ -3,10 +3,15 @@
 		"name": "WebWalker",
 		"link": "https://github.com/Arkko002/PyWalker",
 		"description": "Web scraper written in Python with use of Scrapy. Allows user to pull and analyze data from any website through a web front written in React.",
+		"bullets": [
+			"First",
+			"Second",
+			"Third"
+		],
 		"icons": [
 			"django.png",
-			"python.png",
-			"react.png"
+			"react.png",
+			"postgres.png"
 		],
 		"images": [
 			"https://i.imgur.com/4nM84OD.jpg"
@@ -16,10 +21,15 @@
 		"name": "RedPoint",
 		"link": "https://github.com/Arkko002/RedPoint",
 		"description": "Chat with user accounts, real-life messaging, channels and servers. Written with the use of microservice architectural pattern that allows for great separation between the components user interacts with.",
+		 "bullets": [
+			 "First",
+			 "Second",
+			 "Third"
+		 ],
 		"icons": [
-			"django.png",
-			"python.png",
-			"react.png"
+			"netcore.svg",
+			"vue.svg",
+			"mysql.png"
 		],
 		 "images": [
 			 "https://i.imgur.com/akxssx2.jpg"
@@ -29,10 +39,14 @@
 		"name": "RichClousre",
 		"link": "https://github.com/Arkko002/RichClosure",
 		"description": "Cross platform packet protocol analyzer created with use of Pcap API and offers two GUI fronts (AvaloniaUI and WPF). Offers range of functions that allow to filter incoming packets.",
+		"bullets": [
+			"First",
+			"Second",
+			"Third"
+		],
 		"icons": [
-			"django.png",
-			"python.png",
-			"react.png"
+			"csharp.png",
+			"avalonia.png"
 		],
 		"images": [
 			"https://camo.githubusercontent.com/53de7bdc0eb047cbe13adb498ef5734087d194fb3d9bd481626e91864a1c0c7e/68747470733a2f2f692e696d6775722e636f6d2f65614c333447712e706e67",
@@ -45,10 +59,13 @@
 		"name": "RichMap",
 		"link": "https://github.com/Arkko002/richMap",
 		"description": "A port scanner, live host finder and service banner grabber. Allows to interact with program's functionality through GUI or CLI.",
+		"bullets": [
+			"First",
+			"Second",
+			"Third"
+		],
 		"icons": [
-			"django.png",
-			"python.png",
-			"react.png"
+			"python.png"
 		],
 		"images": [
 			"https://camo.githubusercontent.com/01cadde3ac8f4010f756d7c8a563baad9e7e34821a8c265588cab505f24a822c/68747470733a2f2f692e696d6775722e636f6d2f5578447239464e2e706e67",
@@ -59,10 +76,17 @@
 		"name": "nShop",
 		"link": "https://github.com/Arkko002/nShop",
 		"description": "A tiny implementation of eCommerence site with use of NodeJS and React. Allows to user's to create accounts and place orders for items managed by owner of the service.",
+		"bullets": [
+			"First",
+			"Second",
+			"Third"
+		],
 		"icons": [
-			"django.png",
-			"python.png",
-			"react.png"
+			"node.png",
+			"ts.svg",
+			"react.png",
+			"tailwind.svg",
+			"mongodb.png"
 		],
 		"images": [
 			"https://i.imgur.com/WK9jEiB.jpg"
@@ -72,23 +96,29 @@
 		"name": "NtNotifier",
 		"link": "https://github.com/Arkko002/NotificationNtBot",
 		"description": "Discord bot that I have written for the community of Neotokyo's game server. Monitors activity on public Neotokyo servers and sends out notifications with live updates about status of games.",
+		"bullets": [
+			"First",
+			"Second",
+			"Third"
+		],
 		"icons": [
-			"django.png",
-			"python.png",
-			"react.png"
+			"python.png"
 		],
 		"images": [
 			"https://i.imgur.com/zw6s7hL.jpg"
 		]
 	},
 	{
-		"name": "File Upload Service for dead.tokyo",
+		"name": "File upload service for dead.tokyo",
 		"link": "https://github.com/Arkko002/dead.tokyo",
 		"description": "File upload NodeJS service with simple authentication and rate limiting created for the dead.tokyo website.",
+		"bullets": [
+			"First",
+			"Second",
+			"Third"
+		],
 		"icons": [
-			"django.png",
-			"python.png",
-			"react.png"
+			"node.png"
 		],
 		"images": [
 			"https://i.imgur.com/IEInvl1.jpg"
@@ -98,10 +128,12 @@
 		"name": "This website",
 		"link": "https://github.com/Arkko002/arkko",
 		"description": "This portfolio was created with the use of Vue and TailwindCSS. Full source code can be found in the link below.",
+		"bullets": [
+		],
 		"icons": [
-			"django.png",
-			"python.png",
-			"react.png"
+			"vue.svg",
+			"ts.svg",
+			"tailwind.svg"
 		],
 		"images": [
 			"https://i.imgur.com/lC23XRk.jpg"

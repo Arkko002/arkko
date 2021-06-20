@@ -13,8 +13,11 @@ module.exports = {
 				},
 			},
 			height: {
-				cardHeight: "70vh",
-				cardImgH: ""
+				minContent: "min-content",
+				maxContent: "max-content",
+			},
+			width: {
+				cardImgW: "90%",
 			},
 		},
 	},
