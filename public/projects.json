@@ -2,11 +2,11 @@
 	{
 		"name": "WebWalker",
 		"link": "https://github.com/Arkko002/PyWalker",
-		"description": "Web scraper written in Python with use of Scrapy. Allows user to pull and analyze data from any website through a web front written in React.",
+		"description": "Online website scraper written in Python with use of Django and React.",
 		"bullets": [
-			"First",
-			"Second",
-			"Third"
+			"Website scraping with Scrapy library",
+			"Several built-in scraping presets for popular use cases",
+			"Storage of results in PostgreSQL database"
 		],
 		"icons": [
 			"django.png",
@@ -20,11 +20,13 @@
 	 {
 		"name": "RedPoint",
 		"link": "https://github.com/Arkko002/RedPoint",
-		"description": "Chat with user accounts, real-life messaging, channels and servers. Written with the use of microservice architectural pattern that allows for great separation between the components user interacts with.",
+		"description": "Chat application inspired by Discord written in C# with ASP.NET Core 3 / .NET Framework 5, with front end written using Vue.",
 		 "bullets": [
-			 "First",
-			 "Second",
-			 "Third"
+			 "User account management with Identity, front end authentication using JWT",
+			 "Real-time chat communication with use of SignalR",
+			 "State management using Vuex",
+			 "Containerization with Docker and orchestration with Kubernetes",
+			 "Storage of data in MySQL database, with use of Entity Framework"
 		 ],
 		"icons": [
 			"netcore.svg",
@@ -38,11 +40,12 @@
 	{
 		"name": "RichClousre",
 		"link": "https://github.com/Arkko002/RichClosure",
-		"description": "Cross platform packet protocol analyzer created with use of Pcap API and offers two GUI fronts (AvaloniaUI and WPF). Offers range of functions that allow to filter incoming packets.",
+		"description": "Cross platform packet analyzer created with C# / .NET.",
 		"bullets": [
-			"First",
-			"Second",
-			"Third"
+			"Component-based architecutre with two GUIs: AvaloniaUI and WPF",
+			"Packet sniffing with use of raw sockets or Pcap",
+			"Filtering results with search queries",
+			"Containerization with Docker"
 		],
 		"icons": [
 			"csharp.png",
@@ -58,11 +61,11 @@
 	{
 		"name": "RichMap",
 		"link": "https://github.com/Arkko002/richMap",
-		"description": "A port scanner, live host finder and service banner grabber. Allows to interact with program's functionality through GUI or CLI.",
+		"description": "A port scanner, live host finder and service banner grabber written in Python, inspired by nmap.",
 		"bullets": [
-			"First",
-			"Second",
-			"Third"
+			"Port scanning and live host discovery with various TCP techniques",
+			"Accessible through CLI or GUI",
+			"Service version and OS detection through banner grabbing"
 		],
 		"icons": [
 			"python.png"
@@ -75,11 +78,12 @@
 	{
 		"name": "nShop",
 		"link": "https://github.com/Arkko002/nShop",
-		"description": "A tiny implementation of eCommerence site with use of NodeJS and React. Allows to user's to create accounts and place orders for items managed by owner of the service.",
+		"description": "Ecommerence service with use of NodeJS and React. Allows to user to create accounts and place orders for items managed by owner of the service.",
 		"bullets": [
-			"First",
-			"Second",
-			"Third"
+			"Google OAuth2 authentication using PasswordJS",
+			"API written with ExpressJS",
+			"State management using Redux",
+			"Data storage in MongoDB database, with connection handled by Mongoose"
 		],
 		"icons": [
 			"node.png",
@@ -97,9 +101,10 @@
 		"link": "https://github.com/Arkko002/NotificationNtBot",
 		"description": "Discord bot that I have written for the community of Neotokyo's game server. Monitors activity on public Neotokyo servers and sends out notifications with live updates about status of games.",
 		"bullets": [
-			"First",
-			"Second",
-			"Third"
+			"Communication with Discord API through discord.py",
+			"Fetching server data from Steam API",
+			"Configuration persistence with external config file",
+			"Live updates with game stats tracking"
 		],
 		"icons": [
 			"python.png"
@@ -111,11 +116,11 @@
 	{
 		"name": "File upload service for dead.tokyo",
 		"link": "https://github.com/Arkko002/dead.tokyo",
-		"description": "File upload NodeJS service with simple authentication and rate limiting created for the dead.tokyo website.",
+		"description": "Back enc for handling file uploads written in NodeJS created for the dead.tokyo website",
 		"bullets": [
-			"First",
-			"Second",
-			"Third"
+			"Simple authentication based on password hashing",
+			"Brute force and DDoS protection using node-rate-limiter-flexible",
+			"File upload with Multer"
 		],
 		"icons": [
 			"node.png"

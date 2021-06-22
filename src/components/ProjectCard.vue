@@ -31,7 +31,7 @@
 
 			<span>{{ project.description }}</span>
 
-			<ul>
+			<ul class="pt-4">
 				<li
 					class="list-disc ml-4"
 					v-for="(bullet, index) in project.bullets"
