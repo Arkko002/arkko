@@ -20,6 +20,7 @@
 					items-center
 					flex-1 flex-nowrap
 					w-auto
+					h-full
 				"
 			>
 				<span class="text-lg sm:text-2xl"
@@ -41,7 +42,7 @@
 			<!--</div>-->
 			<img
 				class="
-					object-fill
+					object-fit
 					w-full
 					max-h-1/2
 					order-first
