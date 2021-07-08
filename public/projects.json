@@ -93,7 +93,9 @@
 			"mongodb.png"
 		],
 		"images": [
-			"https://i.imgur.com/WK9jEiB.jpg"
+			"https://camo.githubusercontent.com/df81da4fca1945021d9c25e34bad1fc882ea8f832a0ad5f62ede04526d54ab3a/68747470733a2f2f692e696d6775722e636f6d2f64354765726f4f2e706e67",
+			"https://camo.githubusercontent.com/1de2b873dc4ba62d007365f4896580f8fa156825a8cab71383d3c327cab3baa9/68747470733a2f2f692e696d6775722e636f6d2f6c4237576c39572e706e67",
+			"https://camo.githubusercontent.com/2b606d5ca7656b5c67c93c54c87a78f5ee3b9db158514e364f197a493fe8f745/68747470733a2f2f692e696d6775722e636f6d2f516a5a364944442e706e67"
 		]
 	},
 	{
@@ -111,6 +113,21 @@
 		],
 		"images": [
 			"https://i.imgur.com/zw6s7hL.jpg"
+		]
+	},
+	{
+		"name": "CrAcker",
+		"link": "https://github.com/Arkko002/CrAcker",
+		"description": "A simple password and hash cracker written in Crystal.",
+		"bullets": [
+			"Dictionary and brute force attacks against selected services",
+			"Hash cracking with use of rainbow tables for selected algorithms (SHA1, SHA256, SHA512, MD5)"
+		],
+		"icons": [
+			"crystal.svg"
+		],
+		"images":[
+			"https://i.imgur.com/4nM84OD.jpg"
 		]
 	},
 	{
