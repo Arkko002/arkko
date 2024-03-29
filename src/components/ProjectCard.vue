@@ -67,6 +67,7 @@ import { Project } from "@/models/project";
 
 export default Vue.extend({
 	props: {
+	
 		project: { type: Object as PropType<Project>, required: true },
 	},
 });
