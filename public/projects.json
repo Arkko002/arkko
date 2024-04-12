@@ -1,164 +1,110 @@
 [
-	{
-		"name": "WebWalker",
-		"link": "https://github.com/Arkko002/PyWalker",
-		"description": "Online website scraper written in Python with use of Django and React.",
-		"bullets": [
-			"Website scraping with Scrapy library",
-			"Several built-in scraping presets for popular use cases",
-			"Storage of results in PostgreSQL database"
-		],
-		"icons": [
-			"django.png",
-			"react.png",
-			"postgres.png"
-		],
-		"images": [
-			"https://i.imgur.com/4nM84OD.jpg"
-		]
-	},
-	 {
-		"name": "RedPoint",
-		"link": "https://github.com/Arkko002/RedPoint",
-		"description": "Chat application inspired by Discord written in C# with ASP.NET Core 3 / .NET Framework 5, with front end written using Vue.",
-		 "bullets": [
-			 "User account management with Identity, front end authentication using JWT",
-			 "Real-time chat communication with use of SignalR",
-			 "State management using Vuex",
-			 "Containerization with Docker and orchestration with Kubernetes",
-			 "Storage of data in MySQL database, with use of Entity Framework"
-		 ],
-		"icons": [
-			"netcore.svg",
-			"vue.svg",
-			"mysql.png"
-		],
-		 "images": [
-			 "https://i.imgur.com/akxssx2.jpg"
-		 ]
-	},
-	{
-		"name": "RichClousre",
-		"link": "https://github.com/Arkko002/RichClosure",
-		"description": "Cross platform packet analyzer created with C# / .NET.",
-		"bullets": [
-			"Component-based architecutre with two GUIs: AvaloniaUI and WPF",
-			"Packet sniffing with use of raw sockets or Pcap",
-			"Filtering results with search queries",
-			"Containerization with Docker"
-		],
-		"icons": [
-			"csharp.png",
-			"avalonia.png"
-		],
-		"images": [
-			"https://camo.githubusercontent.com/53de7bdc0eb047cbe13adb498ef5734087d194fb3d9bd481626e91864a1c0c7e/68747470733a2f2f692e696d6775722e636f6d2f65614c333447712e706e67",
-			"https://camo.githubusercontent.com/41308e9e96b9272b316c350d889e7e0d0f4f5a03d092f9bf8fc4dc18062244bb/68747470733a2f2f692e696d6775722e636f6d2f387779306734702e706e67",
-			"https://camo.githubusercontent.com/0b1f33e0d17d05dacd7e7fa6665372621d477ed84227e53eca3abf47d445307e/68747470733a2f2f692e696d6775722e636f6d2f3459666f6656442e706e67",
-			"https://camo.githubusercontent.com/4a90ec1fb0e168ebcbb1bc1cf475b27737291ef11c7feb1189be06381d867f4d/68747470733a2f2f692e696d6775722e636f6d2f6c46766f6f7a692e706e67"
-		]
-	},
-	{
-		"name": "RichMap",
-		"link": "https://github.com/Arkko002/richMap",
-		"description": "A port scanner, live host finder and service banner grabber written in Python, inspired by nmap.",
-		"bullets": [
-			"Port scanning and live host discovery with various TCP techniques",
-			"Accessible through CLI or GUI",
-			"Service version and OS detection through banner grabbing"
-		],
-		"icons": [
-			"python.png"
-		],
-		"images": [
-			"https://camo.githubusercontent.com/01cadde3ac8f4010f756d7c8a563baad9e7e34821a8c265588cab505f24a822c/68747470733a2f2f692e696d6775722e636f6d2f5578447239464e2e706e67",
-			"https://camo.githubusercontent.com/2948f0e00a052d742478b5c572af45cde03bc431be5b5e26f2dee25603d51470/68747470733a2f2f692e696d6775722e636f6d2f683645663866312e706e67"
-		]
-	},
-	{
-		"name": "nShop",
-		"link": "https://github.com/Arkko002/nShop",
-		"description": "Ecommerence service with use of NodeJS and React. Allows to user to create accounts and place orders for items managed by owner of the service.",
-		"bullets": [
-			"Google OAuth2 authentication using PasswordJS",
-			"API written with ExpressJS",
-			"State management using Redux",
-			"Data storage in MongoDB database, with connection handled by Mongoose"
-		],
-		"icons": [
-			"node.png",
-			"ts.svg",
-			"react.png",
-			"tailwind.svg",
-			"mongodb.png"
-		],
-		"images": [
-			"https://camo.githubusercontent.com/df81da4fca1945021d9c25e34bad1fc882ea8f832a0ad5f62ede04526d54ab3a/68747470733a2f2f692e696d6775722e636f6d2f64354765726f4f2e706e67",
-			"https://camo.githubusercontent.com/1de2b873dc4ba62d007365f4896580f8fa156825a8cab71383d3c327cab3baa9/68747470733a2f2f692e696d6775722e636f6d2f6c4237576c39572e706e67",
-			"https://camo.githubusercontent.com/2b606d5ca7656b5c67c93c54c87a78f5ee3b9db158514e364f197a493fe8f745/68747470733a2f2f692e696d6775722e636f6d2f516a5a364944442e706e67"
-		]
-	},
-	{
-		"name": "NtNotifier",
-		"link": "https://github.com/Arkko002/NotificationNtBot",
-		"description": "Discord bot that I have written for the community of Neotokyo's game server. Monitors activity on public Neotokyo servers and sends out notifications with live updates about status of games.",
-		"bullets": [
-			"Communication with Discord API through discord.py",
-			"Fetching server data from Steam API",
-			"Configuration persistence with external config file",
-			"Live updates with game stats tracking"
-		],
-		"icons": [
-			"python.png"
-		],
-		"images": [
-			"https://i.imgur.com/zw6s7hL.jpg"
-		]
-	},
-	{
-		"name": "CrAcker",
-		"link": "https://github.com/Arkko002/CrAcker",
-		"description": "A simple password and hash cracker written in Crystal.",
-		"bullets": [
-			"Dictionary and brute force attacks against selected services",
-			"Hash cracking with use of rainbow tables for selected algorithms (SHA1, SHA256, SHA512, MD5)"
-		],
-		"icons": [
-			"crystal.svg"
-		],
-		"images":[
-			"https://i.imgur.com/4nM84OD.jpg"
-		]
-	},
-	{
-		"name": "File upload service for dead.tokyo",
-		"link": "https://github.com/Arkko002/dead.tokyo",
-		"description": "Back enc for handling file uploads written in NodeJS created for the dead.tokyo website",
-		"bullets": [
-			"Simple authentication based on password hashing",
-			"Brute force and DDoS protection using node-rate-limiter-flexible",
-			"File upload with Multer"
-		],
-		"icons": [
-			"node.png"
-		],
-		"images": [
-			"https://i.imgur.com/IEInvl1.jpg"
-		]
-	},
-	{
-		"name": "This website",
-		"link": "https://github.com/Arkko002/arkko",
-		"description": "This portfolio was created with the use of Vue and TailwindCSS. Full source code can be found in the link below.",
-		"bullets": [
-		],
-		"icons": [
-			"vue.svg",
-			"ts.svg",
-			"tailwind.svg"
-		],
-		"images": [
-			"https://i.imgur.com/lC23XRk.jpg"
-		]
-	}
+  {
+    "name": "Got",
+    "link": "https://github.com/Arkko002/got",
+    "description": "Git implementation written in Rust.",
+    "bullets": [
+      "Supports Git data model: trees, blobs, hashes"
+    ],
+    "icons": [
+      "rust.svg"
+    ],
+    "images": [
+      "https://i.imgur.com/lC23XRk.jpg"
+    ]
+  },
+  {
+    "name": "Redos",
+    "link": "https://github.com/Arkko002/got",
+    "description": "Redis implementation using NodeJS with Typescript.",
+    "bullets": [
+      "Partial RESP compatibility",
+      "Event Loop based"
+    ],
+    "icons": [
+      "node.png",
+      "ts.svg"
+    ],
+    "images": [
+      "https://i.imgur.com/lC23XRk.jpg"
+    ]
+  },
+  {
+    "name": "Chess service",
+    "link": "https://github.com/Arkko002/literate-octo-fortnight",
+    "description": "A chess service written in PHP and NodeJS with Typescript",
+    "bullets": [
+      "Symphony REST API",
+      "NestJS REST API",
+      "OAuth2 authentication server",
+      "gRPC communication",
+      "PostgreSQL database"
+    ],
+    "icons": [
+      "ts.svg",
+      "php.svg",
+      "node.png",
+      "postgres.png"
+    ],
+    "images": [
+      "https://i.imgur.com/lC23XRk.jpg"
+    ]
+  },
+  {
+    "name": "AI Project",
+    "link": "https://github.com/Arkko002/ai-project",
+    "description": "A data classification project using NodeJS and Tensorflow.js.",
+    "bullets": [],
+    "icons": [
+      "node.png",
+      "tensorflow.svg"
+    ],
+    "images": [
+      "https://i.imgur.com/lC23XRk.jpg"
+    ]
+  },
+  {
+    "name": "Crypto Sentiment Analysis Bot",
+    "link": "https://github.com/Arkko002/got",
+    "description": "A Discord bot for sentiment analysis in Deno.",
+    "bullets": [
+      "Discord API integration with Discordeno",
+      "VADER sentiment analysis",
+      "Twitter scraping with twscrape"
+    ],
+    "icons": [
+      "deno.svg",
+      "ts.svg",
+      "python.png"
+    ],
+    "images": [
+      "https://i.imgur.com/lC23XRk.jpg"
+    ]
+  },
+  {
+    "name": "Rust OS",
+    "link": "https://gitlab.com/Arkko002/rustos",
+    "description": "A microkernel operating system written in Rust.",
+    "bullets": [],
+    "icons": [
+      "rust.svg"
+    ],
+    "images": [
+      "https://i.imgur.com/lC23XRk.jpg"
+    ]
+  },
+  {
+    "name": "This website",
+    "link": "https://github.com/Arkko002/arkko",
+    "description": "This portfolio was created with the use of Vue and TailwindCSS. Full source code can be found in the link below.",
+    "bullets": [],
+    "icons": [
+      "vue.svg",
+      "ts.svg",
+      "tailwind.svg"
+    ],
+    "images": [
+      "https://i.imgur.com/lC23XRk.jpg"
+    ]
+  }
 ]

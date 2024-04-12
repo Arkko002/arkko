@@ -5,7 +5,7 @@
 			id="start"
 			class="
 				flex flex-1
-				h-screen
+				h-full
 				w-full
 				bg-gray-100
 				items-center
@@ -27,7 +27,7 @@
 					>My name is Arkadiusz Kołodziejek</span
 				>
 				<span class="text-lg sm:text-xl"
-					>I'm a a full stack software developer</span
+					>I'm a backend software developer</span
 				>
 				<StartNavButton
 					path="/"
@@ -36,10 +36,6 @@
 				/>
 				<StartNavButton path="/" hash="#contact" link-text="Contact me" />
 			</div>
-
-			<!--<div class="w-1/2 overflow-hidden transform skew-x-12">-->
-			<!--<img class="transform -skew-x-12" src="../../public/start-large.jpg" />-->
-			<!--</div>-->
 			<img
 				class="
 					object-fit
