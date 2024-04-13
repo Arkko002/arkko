@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Chess service",
+    "link": "https://github.com/Arkko002/literate-octo-fortnight",
+    "description": "A chess service written in PHP and NodeJS with Typescript",
+    "bullets": [
+      "Symphony REST API",
+      "NestJS REST API",
+      "OAuth2 authentication server",
+      "gRPC communication",
+      "PostgreSQL database"
+    ],
+    "icons": [
+      "ts.svg",
+      "php.svg",
+      "node.png",
+      "postgres.png"
+    ],
+    "images": [
+      "https://i.imgur.com/lC23XRk.jpg"
+    ]
+  },
+  {
+    "name": "Redos",
+    "link": "https://github.com/Arkko002/got",
+    "description": "Redis implementation using NodeJS with Typescript.",
+    "bullets": [
+      "Partial RESP compatibility",
+      "Event Loop based"
+    ],
+    "icons": [
+      "node.png",
+      "ts.svg"
+    ],
+    "images": [
+      "https://i.imgur.com/lC23XRk.jpg"
+    ]
+  },
+  {
+    "name": "Got",
+    "link": "https://github.com/Arkko002/got",
+    "description": "Git implementation written in Rust.",
+    "bullets": [
+      "Supports Git data model: trees, blobs, hashes"
+    ],
+    "icons": [
+      "rust.svg"
+    ],
+    "images": [
+      "https://i.imgur.com/lC23XRk.jpg"
+    ]
+  },
+  {
+    "name": "AI Project",
+    "link": "https://github.com/Arkko002/ai-project",
+    "description": "A data classification project using NodeJS and Tensorflow.js.",
+    "bullets": [],
+    "icons": [
+      "node.png",
+      "tensorflow.svg"
+    ],
+    "images": [
+      "https://i.imgur.com/lC23XRk.jpg"
+    ]
+  },
+  {
+    "name": "Crypto Sentiment Analysis Bot",
+    "link": "https://github.com/Arkko002/got",
+    "description": "A Discord bot for sentiment analysis in Deno.",
+    "bullets": [
+      "Discord API integration with Discordeno",
+      "VADER sentiment analysis",
+      "Twitter scraping with twscrape"
+    ],
+    "icons": [
+      "deno.svg",
+      "ts.svg",
+      "python.png"
+    ],
+    "images": [
+      "https://i.imgur.com/lC23XRk.jpg"
+    ]
+  },
+  {
+    "name": "Rust OS",
+    "link": "https://gitlab.com/Arkko002/rustos",
+    "description": "A microkernel operating system written in Rust.",
+    "bullets": [],
+    "icons": [
+      "rust.svg"
+    ],
+    "images": [
+      "https://i.imgur.com/lC23XRk.jpg"
+    ]
+  },
+  {
+    "name": "This website",
+    "link": "https://github.com/Arkko002/arkko",
+    "description": "This portfolio was created with the use of Vue and TailwindCSS. Full source code can be found in the link below.",
+    "bullets": [],
+    "icons": [
+      "vue.svg",
+      "ts.svg",
+      "tailwind.svg"
+    ],
+    "images": [
+      "https://i.imgur.com/lC23XRk.jpg"
+    ]
+  }
+]
