@@ -44,9 +44,9 @@ export default {
 
 	beforeMount: function () {
 		for (const json of projectsJson) {
-			const iconLinks: URL[] = [];
+			const iconLinks: string[] = [];
 			for (const icon of json.icons) {
-				let iconLink: URL = new URL("../assets/icons/" + icon, import.meta.url);
+				let iconLink: string = import.meta.env.PROD ? `./img/icons/${icon}` : `src/assets/icons/${icon}`;
 				iconLinks.push(iconLink);
 			}
 
