@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - master
-      - vue3-migration
 jobs:
   build:
     runs-on: ubuntu-latest
