@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Build Vue And Deploy to GitHub Pages
+    name: Build Vue
     steps:
     - uses: actions/checkout@v4.1.2
       with:
@@ -22,9 +22,11 @@ jobs:
         done
     - name: Upload Pages artifact
       uses: actions/upload-pages-artifact@v3
+      with:
+        path: "dist/"
   deploy:
+    name: Deploy to Github Pages
     needs: build
-
     permissions:
       pages: write      # to deploy to Pages
       id-token: write   # to verify the deployment originates from an appropriate source
