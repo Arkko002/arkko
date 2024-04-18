@@ -41,10 +41,16 @@
 import { PropType } from "vue";
 import { Project } from "../models/project";
 
+
 export default {
 	props: {
 		project: { type: Object as PropType<Project>, required: true },
 	},
+	data() {
+		return {
+			publicPath: import.meta.env.BASE_URL
+		}
+	}
 };
 </script>
 
