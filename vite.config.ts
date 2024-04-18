@@ -5,4 +5,5 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
 	plugins: [vue()],
 	publicDir: process.env.NODE_ENV === "production" ? "/arkko/" : "/",
+	base: "https://arkko002.github.io/arkko/"
 })
