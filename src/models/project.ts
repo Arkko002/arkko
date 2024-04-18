@@ -3,14 +3,14 @@ export class Project {
 	link: string;
 	description: string;
 	images: string[];
-	icons: string[];
+	icons: URL[];
 	bullets: string[];
 
 	constructor(
 		name: string,
 		link: string,
 		description: string,
-		icons: string[],
+		icons: URL[],
 		images: string[],
 		bullets: string[]
 	) {

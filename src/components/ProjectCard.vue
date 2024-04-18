@@ -9,8 +9,8 @@
 			<div class="flex border-b-2 border-black mb-2 justify-between">
 				<span class="p-2 pl-1 text-lg font-bold">{{ project.name }}</span>
 				<ul class="flex">
-					<li class="p-1" v-for="icon in project.icons" :key="icon">
-						<img class="h-8 w-8 object-scale-down" :src="icon" :alt="icon" />
+					<li class="p-1" v-for="icon in project.icons" :key="icon.href">
+						<img class="h-8 w-8 object-scale-down" :src="icon.href" alt="icon" />
 					</li>
 				</ul>
 			</div>
