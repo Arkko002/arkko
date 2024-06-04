@@ -22,7 +22,7 @@
   },
   {
     "name": "Redos",
-    "link": "https://github.com/Arkko002/got",
+    "link": "https://github.com/Arkko002/redos",
     "description": "Redis implementation using NodeJS with Typescript.",
     "bullets": [
       "Partial RESP compatibility",
@@ -65,7 +65,7 @@
   },
   {
     "name": "Crypto Sentiment Analysis Bot",
-    "link": "https://github.com/Arkko002/got",
+    "link": "https://github.com/Arkko002/stock-bot",
     "description": "A Discord bot for sentiment analysis in Deno.",
     "bullets": [
       "Discord API integration with Discordeno",
